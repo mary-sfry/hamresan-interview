@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import './configs';
+@import './mixins';
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $body-bg;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+
+@import './navmenu/navMenu';
+@import './navmenu/colorMode';

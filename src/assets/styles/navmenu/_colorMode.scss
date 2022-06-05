@@ -1,0 +1,89 @@
+#Light {
+    .navmenu {
+      background-color: $light-bg;
+
+      &__title {
+        color: $light-title;
+      }
+
+      &__item {
+        svg {
+            color: $light-text;
+        }
+        &:hover {
+            background-color: $light-bg-hover;
+        }
+
+        &:hover svg,
+        &:hover span{
+            color: $light-text-hover;
+        }
+      }
+      &__toggle-btn {
+        background-color: $light-bg;
+        box-shadow: 0px 0px 50px 0px gray;
+        svg{
+          color: $light-text;
+        }
+        &:hover svg{
+            color: $light-text-hover;
+        }
+      }
+
+      &__profile {
+        background-color: $light-profile-bg;
+
+        p:nth-of-type(1){
+            color: $light-profile-title;
+        }
+      }
+      &__link {
+        color: $light-text ;
+      }
+    }
+  }
+
+  #Dark {
+    .navmenu {
+      background-color: $dark-bg;
+
+      &__title {
+        color: $dark-title;
+      }
+
+      &__item {
+        svg {
+            color: $dark-text;
+        }
+        &:hover {
+            color: $dark-text-hover;
+            background-color: $dark-bg-hover;
+        }
+
+        &:hover svg,
+        &:hover span {
+            color: $dark-text-hover;
+        }
+      }
+      &__toggle-btn {
+        color: $dark-text;
+        background-color: $dark-collapse-btn-bg;
+        box-shadow: 0px 0px 50px 0px gray;
+        &:hover svg{
+            color: $dark-text-hover;
+        }
+      }
+
+      &__profile {
+        background-color: $dark-profile-bg;
+
+        p:nth-of-type(1){
+            color: $dark-profile-title;
+        }
+      }
+
+      &__link {
+        color: $dark-text ;
+      }
+    }
+  }
